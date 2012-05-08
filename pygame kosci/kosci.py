@@ -25,8 +25,8 @@ array_posX = [60, 140, 220, 300, 380]
 group1 = pygame.sprite.Group()
 group2 = pygame.sprite.Group()
 	
-logo = pygame.image.load('logo.PNG').convert_alpha()
-logo_s = pygame.image.load('logo_s.PNG').convert_alpha()
+logo = pygame.image.load('data\logo.PNG').convert_alpha()
+logo_s = pygame.image.load('data\logo_s.PNG').convert_alpha()
 
 logonapis = font2.render("Wspania³e kosci", True, (0,0,0))
 newgame = font3.render("Nowa gra", True, (0,0,0))
