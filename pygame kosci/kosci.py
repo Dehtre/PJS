@@ -105,6 +105,8 @@ def input(events):
 			if event.type == pygame.MOUSEBUTTONUP:
 				if newgame_r.collidepoint(mousePos):
 					gamestate = 1
+					group1.empty()
+					group2.empty()
 					changeState()
 				elif instructions_r.collidepoint(mousePos):
 					gamestate = 2
